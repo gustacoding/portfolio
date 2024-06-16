@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Tatsch - Portfólio Pessoal</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Gustavo Tatsch" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Gustavo Tatsch">Gustavo Tatsch</h1>
+
+          <p class="title">Desenvolvedor Web</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">E-mail</p>
+
+              <a href="mailto:gustavo@digitalforge.dev.br" class="contact-link">gustavo@digitalforge.dev.br</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Fone</p>
+
+              <a href="tel:+5551981092359" class="contact-link">+55 (51) 9 8109-2359</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Aniversário</p>
+
+              <time datetime="1994-08-09">9 Agosto, 1994</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Endereço</p>
+
+              <address>Canoas, RS, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linktr.ee/gusta.coding" class="social-link">
+              <ion-icon name="link"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/gustacoding" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/gusta.coding/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Currículo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfólio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contato</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Sou apaixonado por tecnologia e desenvolvimento web, e estou em busca 
+            de uma oportunidade como Desenvolvedor Frontend Junior. Tenho 
+            experiência na engenharia e estou mudando oficialmente para a área da tecnologia.
+          </p>
+
+          <p>
+            Fundador da Digital Forge, desenvolvo sites personalizados, unindo 
+            criatividade e técnica, com conhecimentos em JavaScript e React.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que faço</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-fullstack.png
+                " alt="fullstack" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Full Stack</h4>
+
+                <p class="service-item-text">
+                  Soluções completas de ponta a ponta, desde o front-end até o back-end.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-frontend.png" alt="Frontend" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Frontend</h4>
+
+                <p class="service-item-text">
+                  Interfaces intuitivas e responsivas que oferecem a melhor experiência para o usuário.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-backend.png" alt="Backend" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Backend</h4>
+
+                <p class="service-item-text">
+                  Criação de sistemas robustos e escaláveis para suportar qualquer demanda.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-designux.png" alt="Design" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design/UX</h4>
+
+                <p class="service-item-text">
+                  Design centrado no usuário para garantir que cada interação seja memorável.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Depoimentos</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Aléxia V." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aléxia V.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    O trabalho no nosso e-commerce foi impecável. 
+                    Ele otimizou a performance e melhorou a experiência do usuário significativamente. 
+                    Suas soluções criativas e atenção aos detalhes fizeram toda a diferença. Serviço de primeira qualidade!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Leonardo R." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Leonardo R.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Trabalhar com o Gustavo foi uma experiência fantástica! 
+                    Ele transformou nossa visão em um site incrível, funcional e esteticamente agradável. 
+                    Sempre disponível para ajustes e extremamente profissional. 
+                    Recomendo a todos que precisam de um web developer talentoso!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Denis W." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Denis W.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Contratamos o Gustavo para modernizar nosso site e ele superou nossas expectativas. 
+                    O novo design é intuitivo e atrai muitos mais visitantes. 
+                    Sua habilidade em resolver problemas rapidamente foi crucial.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Lisa N." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lisa N.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Fiquei impressionada com a dedicação do Gustavo. 
+                    Ele não só entregou o projeto dentro do prazo, mas também adicionou funcionalidades que não tínhamos considerado. 
+                    Sempre prestativo e claro na comunicação.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2023-11-25">25 Novembro, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  O trabalho do Gustavo no nosso e-commerce foi impecável. 
+                  Ele otimizou a performance e melhorou a experiência do usuário significativamente. 
+                  Suas soluções criativas e atenção aos detalhes fizeram toda a diferença. Serviço de primeira qualidade!
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Alguns Clientes</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="currículo">
+
+        <header>
+          <h2 class="h2 article-title">Currículo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formação Acadêmica</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduando em Engenharia de Software</h4>
+
+              <span>2021 — 2026</span>
+
+              <p class="timeline-text">
+                No curso de Engenharia de Software, estou aprendendo desenvolvimento de software, 
+                infraestrutura de TI, lógica de programação avançada, engenharia de requisitos, 
+                modelagem de sistemas complexos, programação orientada a objetos, 
+                desenvolvimento web completo, metodologias ágeis, segurança cibernética e inteligência artificial.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="cog"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência Profissional</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Digital Forge</h4>
+
+              <span>2023 — Presente</span>
+
+              <p class="timeline-text">
+                Fundador da Digital Forge, 
+                desenvolvo sites personalizados, 
+                unindo criatividade e técnica, com conhecimentos em JavaScript e React.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rotta Xavier Engenharia Ltda</h4>
+
+              <span>2024 — Presente</span>
+
+              <p class="timeline-text">
+                Liderança de equipes compostas por profissionais da área de engenharia.
+                Gestão de projetos e manutenção de documentação.
+                Coordenação de equipe de projetistas e participação ativa na implantação de rotinas e processos.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Projeconsult Engenharia Ltda</h4>
+
+              <span>2012 — 2023</span>
+
+              <p class="timeline-text">
+                Elaboração de relatórios técnicos e gerenciais para suporte em tomadas de decisões estratégicas.
+                Supervisão física/financeira de projetos de diversas naturezas, garantindo conformidade nos processos
+                e excelência operacional. Análise, acompanhamento e apresentação de comparações entre custos orçados e 
+                realizados.
+                Elaboração de quantitativos e orçamentos para serviços de construção e reforma.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas Habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desenvolvimento Full Stack</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desenvolvimento Frontend</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desenvolvimento Backend</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Design/UX</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Portfólio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Design Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicativos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desenvolvimento Web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Design Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplicativos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desenvolvimento Web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Rotta Xavier" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rotta Xavier Engenharia</h3>
+
+                <p class="project-category">Desenvolvimento Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Alvo Engenharia" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Alvo Engenharia</h3>
+
+                <p class="project-category">Desenvolvimento Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="design web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="DecoraAtelie" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decora Atelie</h3>
+
+                <p class="project-category">Design Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="design web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="wolfsa" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wolf S.A.</h3>
+
+                <p class="project-category">Design Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Digital Forge" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Forge</h3>
+
+                <p class="project-category">Desenvolvimento Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="aplicativos">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="Em Breve" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Em Breve</h3>
+
+                <p class="project-category">Aplicativos</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contato">
+
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.014159496842!2d-51.1685506!3d-29.9017684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95196fe2b6c59a0d%3A0x2192321fa9c782e3!2sR.%20Ap%C3%A1%2C%2084%20-%20Igara%2C%20Canoas%20-%20RS%2C%2092410-330!5e0!3m2!1spt-BR!2sbr!4v1686905302333!5m2!1spt-BR!2sbr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contato</h3>
+
+            <form action="https://api.staticforms.xyz/submit" class="form" method="post" data-form>
+            <!-- Replace with accesKey sent to your email -->
+            <input type="hidden" name="accessKey" value="beb2c618-5d4a-4590-a4a1-570b5ab432fa"> <!-- Required -->
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nome" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Em que posso ajudar?" required data-form-input></textarea>
+            <input type="hidden" name="redirectTo" value="https://www.digitalforge.dev.br/obrigado.html"> <!-- Optional -->
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensagem</span>
+            </button>
+
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
