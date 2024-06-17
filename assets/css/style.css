@@ -35,7 +35,7 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    #33A8FF 0%, 
+    #3355FF 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -50,8 +50,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    #33A8FF, 
-    #33A8FF
+    #FF5733, 
+    #3355FF
   );
 
   /* solid */
@@ -63,11 +63,11 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: #33A8FF;
-  --vegas-gold: #33A8FF;
+  --orange-yellow-crayola: #FF5733;
+  --vegas-gold: #3355FF;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: #33A8FF;
+  --bittersweet-shimmer: #FF5733;
 
   /**
    * typography
@@ -431,11 +431,11 @@ main {
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 15px;
-  padding-bottom: 4px;
-  padding-left: 7px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .social-item .social-link {
